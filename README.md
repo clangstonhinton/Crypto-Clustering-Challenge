@@ -3,11 +3,9 @@ Deploy unsupervised learning to predict if cryptocurrencies are affected by 24-h
 
 <img width="1134" alt="Screen Shot 2023-04-17 at 5 14 16 PM" src="https://user-images.githubusercontent.com/44728723/232612256-75ac399d-25ca-472f-b155-acc50cf8b60b.png">
 
-## Background
-
-
 ## Data Description
-
+- The dataset contained pricing data for 41 cryptocurrencies such as: bitcoin, ethereum, tether and ripple among others.
+- 7 columns contain pricing changes for 24-hour, 7-day, 14-day, 30-day, 60-day, 200-day and 1 year periods for each cryptocurrency.
 
 ## Approach
 - K-means:
