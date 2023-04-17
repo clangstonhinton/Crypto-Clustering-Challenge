@@ -1,5 +1,5 @@
 # Crypto-Clustering-Challenge
-Use K-Means and PCA to cluster crypto currencies
+Deploy unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes leveraging, Python, K-Means and Principal Component Analysis.
 
 <img width="1134" alt="Screen Shot 2023-04-17 at 5 14 16 PM" src="https://user-images.githubusercontent.com/44728723/232612256-75ac399d-25ca-472f-b155-acc50cf8b60b.png">
 
