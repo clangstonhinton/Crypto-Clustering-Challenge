@@ -23,3 +23,7 @@ Deploy unsupervised learning to predict if cryptocurrencies are affected by 24-h
 ## Findings
 (1) The optimal value for k against the original scaled data was determined to be 4 clusters.
 (2)
+
+
+
+
