@@ -1,13 +1,13 @@
 # Crypto-Clustering-Challenge
 Use K-Means and PCA to cluster crypto currencies
 
-# Background
+## Background
 
 
-# Data Description
+## Data Description
 
 
-# Approach
+## Approach
 - K-means:
   - The data was normalized using the StandardScaler() module from scikit-learn
   - Used the elbow method to find the best value for k for the scaled dataset (see plot #1 below)
@@ -20,4 +20,4 @@ Use K-Means and PCA to cluster crypto currencies
 - Comparison of K-Means Original Features to the PCA Features
   - Plots of the elbow graph and clustered scatter plots were compared between the two approaches
 
-# Findings
+## Findings
