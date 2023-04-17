@@ -15,7 +15,7 @@ Deploy unsupervised learning to predict if cryptocurrencies are affected by 24-h
   - Used the elbow method to find the best value for k for the scaled dataset (see plot #1 below)
   - Used K-means to cluster the cryptocurrencies in the scaled dataset
 - PCA (Principal Component Analysis)
-  - Using the original scaled data, a PCA was performed to reduce the features to three principal components
+  - Using the original scaled data, PCA was performed to optimize clusters by reducing the features to three principal components
   - The explained variance was determined for the three principal components
   - The elbow method was used on the PCA data to find the best value for k
   - K-means was used to cluster the cryptocurrencies in the PCA data
