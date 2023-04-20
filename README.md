@@ -21,8 +21,11 @@ Deploy unsupervised learning to predict if cryptocurrencies are affected by 24-h
   - Plots of the elbow graph and clustered scatter plots were compared between the two approaches
 
 ## Findings
-(1) The optimal value for k against the original scaled data was determined to be 4 clusters.
-(2)
+  (1) The optimal value for k against the original scaled data was determined to be 4 clusters.
+  (2) The features were reduced to 3 in the PCA approach and explained 89% of the variance in the dataset.
+  (3) The PCA approach indicated that the best value for k continued to be 4. However, the inertia values were smaller with PCA than KMeans approach.
+  (4) When comparing scatter plots of the clusters from the two approaches, the PCA approach with 3 features produced more tightly grouped clusters than the original KMeans approach.  
+  (5) The two outliers (celsius-degree-token and ethelend) are the same in both the KMeans Original Scatter and the PCA Scatter plots. It may be beneficial to re-run the models after removing the two outliers from the dataset.
 
 
 
