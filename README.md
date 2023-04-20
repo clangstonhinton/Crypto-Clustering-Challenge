@@ -9,8 +9,8 @@ Deploy unsupervised learning to predict if cryptocurrencies are affected by 24-h
 
 ## Approach
 - K-means:
-  - The data was normalized using the StandardScaler() module from scikit-learn
-  - Used the elbow method to find the best value for k for the scaled dataset (see plot #1 below)
+  - The data were normalized using the StandardScaler module from scikit-learn
+  - Used the elbow method to find the best value for k for the scaled dataset
   - Used K-means to cluster the cryptocurrencies in the scaled dataset
 - PCA (Principal Component Analysis)
   - Using the original scaled data, PCA was performed to optimize clusters by reducing the features to three principal components
